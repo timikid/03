@@ -5,12 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	
-	char c;
+	int a,b;
 	
-	printf("input an alphbet : ");
-	scanf("%c", &c);
+	printf("input two integers : ");
+	scanf("%d %d", &a, &b);
 	
-	printf("input alphabet is %c (%d), and the next one is %c (%d)\n", c, c, c+1, c+1);
+	printf("result is %f\n", (float)a/b);
 	
 	return 0;
 }
