@@ -6,13 +6,11 @@
 int main(int argc, char *argv[]) {
 	
 	char c;
-	int i;
 	
-    printf("input a number :");
-    scanf("%c", &c);
-    
-    i = c-'0';
-    printf("The input number is %i\n", i);
-    
+	printf("input an alphbet : ");
+	scanf("%c", &c);
+	
+	printf("input alphabet is %c (%d), and the next one is %c (%d)\n", c, c, c+1, c+1);
+	
 	return 0;
 }
